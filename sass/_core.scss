@@ -1,0 +1,32 @@
+@font-face {
+    font-family:'roboto';
+    src:url(../fonts/Roboto/Roboto-Light.ttf)
+}
+@font-face {
+    font-family:'robotothick';
+    src:url(../fonts/Roboto/Roboto-Black.ttf)
+}
+@font-face {
+    font-family:'shrikhand';
+    src:url(../fonts/Shrikhand/Shrikhand-Regular.ttf)
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(247, 247, 247);
+    font-family: 'roboto';
+    font-size: smaller;
+    font-weight:lighter
+}
+main{
+    min-height: 1000px;
+}
+a{
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+h1, h2, h3, h4{
+    font-family: 'shrikhand';
+    margin: 0px;
+    font-weight:normal;
+}
