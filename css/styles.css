@@ -35,15 +35,15 @@
   background-color: #eaeaea;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
   justify-content: center;
+  align-content: center;
 }
 .top__presentation {
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
   justify-content: center;
+  align-content: center;
   text-align: center;
 }
 .top__function {
@@ -83,7 +83,9 @@
   width: 10px;
   height: 10px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   position: absolute;
   color: white;
   top: 33%;

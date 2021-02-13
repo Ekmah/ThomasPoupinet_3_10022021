@@ -1,20 +1,15 @@
+@import "variables";
 .top{
     &__location{
         width: 100%;
         height: 50px;
         background-color: rgb(234, 234, 234);
         // box-shadow: inset 0px 1px 3px 1px rgba(110, 110, 110, 0.295);
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+        @include flex-center;
     }
     &__presentation{
         padding: 25px;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+        @include flex-center;
         text-align: center;
     }
     &__function{
@@ -30,17 +25,15 @@
         font-family: 'robotothick';
     }
     .test{
-        box-shadow: 0px 4px 10px 1px rgba(110, 110, 110, 0.295);
+        @include box-shadow;
         border-radius: 20px;
         margin: 15px;
     }
     &__submit{
-        
         padding: 10px 15px 10px 15px;
         border-radius: 20px;
         border-width: 0px;
         background-color: rgb(172, 94, 220);
-        
         box-shadow: inset 10px 10px 20px 0px rgb(255, 50, 221);
         color: white;
     }
@@ -55,8 +48,7 @@
         padding: 5px;
         width: 10px;
         height: 10px;
-        display: flex;
-        align-items: center;
+        @include flex-center;
         position: absolute;
         color: white;
         top: 33%;
@@ -66,9 +58,8 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        // justify-content: center;
         background-color: rgb(247, 247, 247);
-        box-shadow: 0px 4px 10px 1px rgba(110, 110, 110, 0.295);
+        @include box-shadow;
         width: 100%;
         height: 60px;
         border-radius: 20px;
