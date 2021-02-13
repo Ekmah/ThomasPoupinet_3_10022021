@@ -70,20 +70,8 @@
 .top__function h2 {
   font-family: "robotothick";
 }
-.top__function__box {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  background-color: #f7f7f7;
-  width: 100%;
-  height: 50px;
-  border-radius: 20px;
-}
-.top__function__box i {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.top__function__number {
+
+.top__function__element__number {
   background-color: #ac5edc;
   border-radius: 10px;
   padding: 5px;
@@ -92,6 +80,22 @@
   justify-self: center;
   text-align: center;
   position: relative;
+}
+.top__function__element__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+}
+.top__function__element__box i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top__function__element__box__text {
+  font-weight: bold;
 }
 
 @font-face {
