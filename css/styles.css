@@ -66,8 +66,8 @@
   padding: 10px 15px 10px 15px;
   border-radius: 20px;
   border-width: 0px;
-  background-color: #ac5edc;
-  box-shadow: inset 10px 10px 20px 0px #ff32dd;
+  background-color: #9356DC;
+  box-shadow: inset 10px 10px 20px 0px #FF79DA;
   color: white;
 }
 
@@ -77,7 +77,7 @@
   margin-bottom: 20px;
 }
 .top__function__element__number {
-  background-color: #ac5edc;
+  background-color: #9356DC;
   border-radius: 10px;
   padding: 5px;
   width: 10px;
@@ -108,7 +108,7 @@
   font-size: medium;
 }
 .top__function__element__box .fa-store {
-  color: #ac5edc;
+  color: #9356DC;
 }
 .top__function__element__box__text {
   font-family: "robotothick";
