@@ -69,8 +69,14 @@
             color: gray;
             font-size: medium;
         }
+        .fa-store{
+            color: rgb(172, 94, 220);
+        }
         &__text{
             font-family: 'robotothick';
         }
+    }
+    .blue{
+        background-color: rgb(235, 243, 252);
     }
 }

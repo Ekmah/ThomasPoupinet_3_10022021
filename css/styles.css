@@ -107,8 +107,14 @@
   color: gray;
   font-size: medium;
 }
+.top__function__element__box .fa-store {
+  color: #ac5edc;
+}
 .top__function__element__box__text {
   font-family: "robotothick";
+}
+.top__function__element .blue {
+  background-color: #ebf3fc;
 }
 
 @font-face {
