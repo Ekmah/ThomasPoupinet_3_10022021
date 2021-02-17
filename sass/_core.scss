@@ -1,3 +1,4 @@
+@import "variables";
 @font-face {
     font-family:'roboto';
     src:url(../fonts/Roboto/Roboto-Light.ttf)
@@ -13,10 +14,18 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: rgb(247, 247, 247);
+    background: linear-gradient(125deg, $color-secondary, $color-primary, $color-tertiary);;
     font-family: 'roboto';
     font-size: smaller;
-    font-weight:lighter
+    font-weight: lighter
+}
+.top__presentation, main{
+    background-color: #f7f7f7;
+}
+.container{
+    max-width: 900px;
+    padding: 25px;
+    margin: auto;
 }
 main{
     min-height: 1000px;

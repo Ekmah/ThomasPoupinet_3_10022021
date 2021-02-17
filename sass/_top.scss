@@ -1,21 +1,17 @@
 @import "variables";
 .top{
-    &__location{
-        width: 100%;
-        height: 50px;
-        background-color: rgb(234, 234, 234);
-        // box-shadow: inset 0px 1px 3px 1px rgba(110, 110, 110, 0.295);
-        @include flex-center;
-    }
     &__presentation{
-        padding: 25px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     &__function{
         background-color: white;
-        padding: 30px 20px 30px 20px;
+        
+        .bla{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
         h2{
             font-family: 'robotothick';
         }
@@ -28,8 +24,9 @@
 }
 .top__function__element{
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 25px;
+    
+    // min-width: 250px;
     &__number{
         background-color: $color-primary;
         border-radius: 10px;
