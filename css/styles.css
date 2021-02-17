@@ -42,13 +42,10 @@ footer i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .top__function {
   background-color: white;
-}
-.top__function .bla {
-  padding-left: 5%;
-  padding-right: 5%;
 }
 .top__function h2 {
   font-family: "robotothick";
@@ -60,7 +57,7 @@ footer i {
 
 .top__function__element {
   position: relative;
-  margin: 25px;
+  margin: 25px 0px 25px 10px;
 }
 .top__function__element__number {
   background-color: #9356DC;
@@ -130,7 +127,7 @@ body {
 
 .container {
   max-width: 900px;
-  padding: 25px;
+  padding: 15px;
   margin: auto;
 }
 
@@ -155,6 +152,7 @@ h1, h2, h3, h4 {
   border-width: 0px;
   background: linear-gradient(175deg, #FF79DA, #9356DC);
   color: white;
+  cursor: pointer;
 }
 .button:hover {
   box-shadow: 0px 4px 10px 1px rgba(110, 110, 110, 0.295);
