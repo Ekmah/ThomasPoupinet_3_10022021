@@ -1,0 +1,44 @@
+main{
+    
+    h2{
+        font-family: 'robotothick';
+        padding-top: 20px;
+    }
+    .div_box{
+        padding-bottom: 20px;
+    }
+}
+.div_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    @include box-shadow;
+    &__picture{
+        width: 100%;
+        // height: 60%;
+        img{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
+    &__text{
+        padding:10px;
+        min-height: 50px;
+    }
+}
