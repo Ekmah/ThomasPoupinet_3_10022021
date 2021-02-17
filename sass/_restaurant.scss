@@ -11,6 +11,16 @@
     border-radius: 30px 30px 0px 0px;
     max-width: 1100px;
     z-index: 1;
+    position: relative;
+    h1{
+        padding-top: 5px;
+    }
+    .fa-heart{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: x-large;
+    }
     &__menu{
         display: flex;
         flex-wrap: wrap;
