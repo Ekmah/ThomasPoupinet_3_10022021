@@ -41,10 +41,8 @@
 .top__presentation {
   padding: 25px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 .top__function {
   background-color: white;
@@ -56,19 +54,6 @@
 
 .top__presentation h2 {
   font-family: "robotothick";
-}
-.top__presentation .test {
-  box-shadow: 0px 4px 10px 1px rgba(110, 110, 110, 0.295);
-  border-radius: 20px;
-  margin: 15px;
-}
-.top__presentation__submit {
-  padding: 10px 15px 10px 15px;
-  border-radius: 20px;
-  border-width: 0px;
-  background-color: #9356DC;
-  box-shadow: inset 10px 10px 20px 0px #FF79DA;
-  color: white;
 }
 
 .top__function__element {
@@ -151,6 +136,17 @@ h1, h2, h3, h4 {
   font-family: "shrikhand";
   margin: 0px;
   font-weight: normal;
+}
+
+.button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border-width: 0px;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  color: white;
+}
+.button:hover {
+  box-shadow: 0px 4px 10px 1px rgba(110, 110, 110, 0.295);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+@import "variables";
+.button{
+    padding:10px 15px 10px 15px;
+    border-radius: 20px;
+    border-width: 0px;
+    background: linear-gradient(175deg, $color-secondary, $color-primary);
+    color: white;
+    &:hover{
+        @include box-shadow
+    }
+}

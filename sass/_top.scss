@@ -9,8 +9,9 @@
     }
     &__presentation{
         padding: 25px;
-        @include flex-center;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     &__function{
         background-color: white;
@@ -23,19 +24,6 @@
 .top__presentation{
     h2{
         font-family: 'robotothick';
-    }
-    .test{
-        @include box-shadow;
-        border-radius: 20px;
-        margin: 15px;
-    }
-    &__submit{
-        padding: 10px 15px 10px 15px;
-        border-radius: 20px;
-        border-width: 0px;
-        background-color: $color-primary;
-        box-shadow: inset 10px 10px 20px 0px $color-secondary;
-        color: white;
     }
 }
 .top__function__element{
