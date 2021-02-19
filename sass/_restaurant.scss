@@ -81,6 +81,15 @@
     align-items: center;
     margin:  20px 0px 50px 0px;
 }
+.footer{
+    max-width: 1100px;
+}
 .commander{
     padding: 10px 35px;
+}
+.greenbar{
+    height: 2px;
+    width: 40px;
+    background-color: $color-tertiary;
+    margin-top: 5px;
 }
