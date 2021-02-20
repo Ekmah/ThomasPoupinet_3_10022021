@@ -6,10 +6,33 @@
   z-index: 50;
   position: sticky;
   top: 0px;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+}
+
+.header__text {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.return {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.fa-arrow-left {
+  font-size: larger;
+}
+
+.relative {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  height: 70px;
 }
 
 .location {
@@ -255,6 +278,7 @@ main .div_box {
 }
 .restaurant-main h1 {
   padding-top: 5px;
+  font-size: 28px;
 }
 .restaurant-main .fa-heart {
   position: absolute;
