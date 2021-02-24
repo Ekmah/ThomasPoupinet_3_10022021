@@ -58,13 +58,88 @@ main{
             padding:10px;
         }
         &__icon{
-            .heart-bw{
-                font-size: x-large;
-            }
+            position: relative;
+            right: 20px;
+            top: -10px;
+            font-size: x-large;
             .heart-c{
-                font-size: x-large;
+                opacity: 0;
+                position: absolute;
+                transform: scale(0);
+                right: 0;
             }
-            margin-right: 5px;
+            .heart-bw{
+                position: absolute;
+                right: 0;
+            }
+            
         }
+    }
+}
+.box__content__icon{
+    position: relative;
+    right: 20px;
+    top: -10px;
+    font-size: x-large;
+    .heart-c{
+        opacity: 0;
+        position: absolute;
+        transform: scale(0);
+        right: 0;
+        background: linear-gradient(175deg, $color-secondary, $color-primary);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .heart-bw{
+        position: absolute;
+        right: 0;
+    }
+    &:hover{
+        .heart-c{
+            animation: fade-in;
+            animation-duration: 400ms;
+            animation-fill-mode: forwards;
+        }
+        .heart-bw{
+            animation: fade-out;
+            animation-duration: 400ms;
+            opacity: 0;
+        }
+    }
+}
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(0.5);
+    }
+    70%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(1.25);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes fade-out{
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(0.75);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0);
     }
 }

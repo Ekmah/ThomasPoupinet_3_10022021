@@ -239,15 +239,88 @@ main .div_box {
   padding: 10px;
 }
 .box__content__icon {
-  margin-right: 5px;
-}
-.box__content__icon .heart-bw {
+  position: relative;
+  right: 20px;
+  top: -10px;
   font-size: x-large;
 }
 .box__content__icon .heart-c {
-  font-size: x-large;
+  opacity: 0;
+  position: absolute;
+  transform: scale(0);
+  right: 0;
+}
+.box__content__icon .heart-bw {
+  position: absolute;
+  right: 0;
 }
 
+.box__content__icon {
+  position: relative;
+  right: 20px;
+  top: -10px;
+  font-size: x-large;
+}
+.box__content__icon .heart-c {
+  opacity: 0;
+  position: absolute;
+  transform: scale(0);
+  right: 0;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box__content__icon .heart-bw {
+  position: absolute;
+  right: 0;
+}
+.box__content__icon:hover .heart-c {
+  animation: fade-in;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.box__content__icon:hover .heart-bw {
+  animation: fade-out;
+  animation-duration: 400ms;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
 .hero__1 {
   background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   height: 300px;
