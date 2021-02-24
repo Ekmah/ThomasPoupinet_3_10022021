@@ -238,22 +238,6 @@ main .div_box {
 .box__content__text {
   padding: 10px;
 }
-.box__content__icon {
-  position: relative;
-  right: 20px;
-  top: -10px;
-  font-size: x-large;
-}
-.box__content__icon .heart-c {
-  opacity: 0;
-  position: absolute;
-  transform: scale(0);
-  right: 0;
-}
-.box__content__icon .heart-bw {
-  position: absolute;
-  right: 0;
-}
 
 .box__content__icon {
   position: relative;
@@ -393,7 +377,7 @@ main .div_box {
   margin-top: 5px;
 }
 
-.box__content__icon {
+.heartic {
   right: 20px;
   top: -30px;
 }
