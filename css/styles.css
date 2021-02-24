@@ -471,7 +471,7 @@ main .div_box {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(80px);
+    transform: translateX(70px);
   }
 }
 @keyframes shift-to-right {
@@ -484,7 +484,7 @@ main .div_box {
 }
 @keyframes roll-in-right {
   0% {
-    transform: translateX(80px) rotate(540deg);
+    transform: translateX(70px) rotate(540deg);
   }
   100% {
     transform: translateX(0) rotate(0deg);
@@ -492,7 +492,7 @@ main .div_box {
 }
 @keyframes slide-in-right {
   0% {
-    transform: translateX(80px);
+    transform: translateX(70px);
   }
   100% {
     transform: translateX(0);
