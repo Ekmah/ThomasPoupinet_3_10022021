@@ -38,12 +38,6 @@
         padding-top: 5px;
         font-size: 28px;
     }
-    .fa-heart{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        font-size: x-large;
-    }
     &__menu{
         display: flex;
         flex-wrap: wrap;
@@ -73,6 +67,10 @@
     width: 40px;
     background-color: $color-tertiary;
     margin-top: 5px;
+}
+.box__content__icon{
+    right: 20px;
+    top: -30px;
 }
 .plat{
     margin-top: 15px;

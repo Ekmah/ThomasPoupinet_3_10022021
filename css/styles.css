@@ -360,12 +360,6 @@ main .div_box {
   padding-top: 5px;
   font-size: 28px;
 }
-.restaurant-main .fa-heart {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  font-size: x-large;
-}
 .restaurant-main__menu {
   display: flex;
   flex-wrap: wrap;
@@ -397,6 +391,11 @@ main .div_box {
   width: 40px;
   background-color: #99E2D0;
   margin-top: 5px;
+}
+
+.box__content__icon {
+  right: 20px;
+  top: -30px;
 }
 
 .plat {
