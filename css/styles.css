@@ -229,15 +229,22 @@ main .div_box {
   border-radius: 2px;
   font-size: smaller;
 }
-.box__text {
-  padding: 10px;
-  height: 10%;
-  position: relative;
+.box__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
-.box__text .fa-heart {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.box__content__text {
+  padding: 10px;
+}
+.box__content__icon {
+  margin-right: 5px;
+}
+.box__content__icon .heart-bw {
+  font-size: x-large;
+}
+.box__content__icon .heart-c {
   font-size: x-large;
 }
 
