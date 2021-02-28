@@ -45,6 +45,29 @@
         transform: scale(0);
     }
 }
+@keyframes fade-out-loader{
+    0% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes loading-bar{
+    0%{
+        width: 0px;
+        background-color: $color-tertiary;
+    }
+    50%{
+        width: 150px;
+    }
+    100%{
+        width: 200px;
+    }
+}
 @keyframes slide-out-right {
     0% {
         transform: translateX(0);

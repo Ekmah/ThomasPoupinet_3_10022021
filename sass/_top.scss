@@ -51,14 +51,16 @@
             color: gray;
             font-size: medium;
         }
-        .fa-store{
-            color: $color-primary;
-        }
         &__text{
             font-family: 'robotothick';
         }
     }
-    .blue{
+}
+.top__function__element:hover{
+    .top__function__element__box{
         background-color: rgb(235, 243, 252);
+        i{
+            color: $color-primary;
+        }
     }
 }
