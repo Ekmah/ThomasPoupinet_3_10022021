@@ -106,6 +106,7 @@ main{
     z-index: 51;
     animation: fade-out-loader;
     animation-duration: 2000ms;
+    animation-fill-mode: forwards;
     opacity: 0;
     .loading_bar{
         animation: loading-bar;
