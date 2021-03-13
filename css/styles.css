@@ -534,6 +534,9 @@ main .div_box {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: slide-out-right 500ms linear both;
+  animation: shift-to-right 600ms;
+  animation-fill-mode: both;
 }
 .plat__animation__wrap-icon {
   height: 1.6rem;
@@ -559,43 +562,43 @@ main .div_box {
 }
 
 .animation-delay-1 {
-  animation-delay: 200ms;
+  animation-delay: 310ms;
 }
 
 .animation-delay-2 {
-  animation-delay: 400ms;
+  animation-delay: 620ms;
 }
 
 .animation-delay-3 {
-  animation-delay: 600ms;
+  animation-delay: 930ms;
 }
 
 .animation-delay-4 {
-  animation-delay: 800ms;
+  animation-delay: 1240ms;
 }
 
 .animation-delay-5 {
-  animation-delay: 1000ms;
+  animation-delay: 1550ms;
 }
 
 .animation-delay-6 {
-  animation-delay: 1200ms;
+  animation-delay: 1860ms;
 }
 
 .animation-delay-7 {
-  animation-delay: 1400ms;
+  animation-delay: 2170ms;
 }
 
 .animation-delay-8 {
-  animation-delay: 1600ms;
+  animation-delay: 2480ms;
 }
 
 .animation-delay-9 {
-  animation-delay: 1800ms;
+  animation-delay: 2790ms;
 }
 
 .animation-delay-10 {
-  animation-delay: 2000ms;
+  animation-delay: 3100ms;
 }
 
 /*# sourceMappingURL=styles.css.map */

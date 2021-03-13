@@ -92,6 +92,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: slide-out-right 500ms linear both;
+    animation: shift-to-right 600ms;
+    animation-fill-mode: both;
     &__wrap-icon{
         height: 1.6rem;
         width: 1.6rem;
@@ -119,6 +122,6 @@
 
 @for $i from 1 through 10{
     .animation-delay-#{$i}{
-        animation-delay: 200ms * $i;
+        animation-delay: 310ms * $i;
     }
 }
